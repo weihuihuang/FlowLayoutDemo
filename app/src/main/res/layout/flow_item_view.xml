@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:id="@+id/tag_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textColor="#FFFFFF"
+        tools:text="测试测试测试"
+        android:paddingHorizontal="6dp"
+        android:paddingVertical="4dp"
+        android:singleLine="true"
+        android:background="@drawable/tag_view_bg"/>
+
+</LinearLayout>
